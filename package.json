@@ -1,0 +1,29 @@
+{
+  "name": "graphql_react_apollo",
+  "version": "1.0.0",
+  "description": "SpaceX missions with QraphQL, React, Apollo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemonsGalore/GraphQL-with-React-Apollo.git"
+  },
+  "author": "Andreas Stopat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DemonsGalore/GraphQL-with-React-Apollo/issues"
+  },
+  "homepage": "https://github.com/DemonsGalore/GraphQL-with-React-Apollo#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
